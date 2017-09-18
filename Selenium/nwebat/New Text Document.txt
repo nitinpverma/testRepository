@@ -1,0 +1,26 @@
+@echo off
+
+set URL=https://cscehwmanor001:9472/wma/login.jsf
+
+ set TEST_SUITE=wmAScripts\Annuity\PremiumPayment\PremiumPaymentSuite.html
+ set REPORT_NAME=Annuity\PremiumPayment
+
+set ARGS=
+set ARGS=%ARGS% %URL%
+set ARGS=%ARGS% %~dp0Scripts\%TEST_SUITE%
+set ARGS=%ARGS% %~dp0Reports\%REPORT_NAME%
+
+
+echo Arguements: %ARGS%
+
+
+java -jar -Dwebdriver.ie.driver=%~dp0DriverServer\IEDriverServer.exe Jar\selenium-html-runner-3.4.0.jar -htmlSuite "*iexplore" %ARGS%
+
+@ECHO *************************************************************************
+@ECHO *************************************************************************
+@ECHO    COMPLETED TEST SUITE %TEST_SUITE% EXECUTION.
+@ECHO *************************************************************************
+@ECHO *************************************************************************
+
+
+ pause

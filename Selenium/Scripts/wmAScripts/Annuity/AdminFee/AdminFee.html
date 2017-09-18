@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cscehwmanor001:9472/" />
+<title>AdminFee</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AdminFee</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://cscehwmanor001:9472/wma/login.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>vkuralkar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>wma</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:environment</td>
+	<td>label=CSCEHTSSNOR003-10566</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Accumulation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryMasterId</td>
+	<td>AdminFee</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryPolicyEffectiveDate_input</td>
+	<td>01012008</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryIssueState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryPlanCode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryPlanCode</td>
+	<td>label=AN1PA1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;AN1PA1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryStatutoryCompanyCode</td>
+	<td>label=VCS</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryLineOfBusiness</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=mainform:contractEntryLineOfBusiness</td>
+	<td>label=NQI - NON QUALIFIED INDIVIDUAL</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryResidentState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainform:contractEntryCashWithAppCode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRoleTypeCode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRoleTypeCode</td>
+	<td>label=Agent</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;A&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationPersonCode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationPersonCode</td>
+	<td>vin01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationAgentProfile</td>
+	<td>vin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationFirstYearPercent</td>
+	<td>100%</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRenewalPercent</td>
+	<td>100%</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationCommissionAgencyCode</td>
+	<td>vin01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationAgentContract</td>
+	<td>vin01</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataFirstName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataFirstName</td>
+	<td>vinit</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataLastName</td>
+	<td>kuralkar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataTaxIdNumber</td>
+	<td>458632781</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataBirthdate_input</td>
+	<td>01011965</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataSexCode</td>
+	<td>label=Male</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataAddressLine1</td>
+	<td>vijay nagar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataCity</td>
+	<td>indore</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataZipPostalCode</td>
+	<td>65478</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryAnnuityCommencementDate_input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryAnnuityCommencementDate_input</td>
+	<td>01012010</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryModalPremium</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryModalPremium</td>
+	<td>$5000.00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:contractEntryInitialDepositPremium</td>
+	<td>$5000.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:AllocationFund:0:allocationFundPercent</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:AllocationFund:0:allocationFundPercent</td>
+	<td>100.0%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=mainform:premiumPaymentPaymentAmount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:premiumPaymentPaymentAmount</td>
+	<td>$5000.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=overridebox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=finishbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Navigate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='summaryBar']/table/tbody/tr[2]/td/table/tbody/tr/td[3]</td>
+	<td>exact:Status: A- Active</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=General</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Maintenance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Admin Fee</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:administrativeFeeUpdateEffectiveDate_input</td>
+	<td>06012008</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:administrativeFeeUpdateAdminFee</td>
+	<td>$50.00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:administrativeFeeUpdatePriorFeeDeductDate_input</td>
+	<td>01/01/2009</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=overridebox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#errorMessages &gt; tbody &gt; tr &gt; td &gt; span</td>
+	<td>Transaction processed successfully</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=mainform:ContractHistoryIndexReturnedHistoryData:0:contractHistoryIndexContractHistoryIndexReturnedHistoryDataTrxCodeDisplay</td>
+	<td>WB - Policy Anniversary Deduction</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//tr[@id='ContractHistoryIndexReturnedHistoryData_0']/td[4]/span</td>
+	<td>06/01/2008</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=General</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=iconform:logoutIcon</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

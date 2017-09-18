@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://cscvpplnor004:9083/" />
+<title>LoginTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">LoginTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/pplus/login.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>rjain67</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>rjain</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>id=errorMessages.0.0</td>
+	<td>Invalid User Name and/or Password.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>rjian67</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Please enter User Name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>abc</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>id=errorMessages.0.0</td>
+	<td>Invalid User Name and/or Password.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>abc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>rjain67</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>rjain67</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:companyCode</td>
+	<td>label=</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Please select Company Code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:companyCode</td>
+	<td>label=CSC (A)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:environment</td>
+	<td>label=PPL1701B</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>css=table.iconbar.0.1</td>
+	<td>Detailed Search</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

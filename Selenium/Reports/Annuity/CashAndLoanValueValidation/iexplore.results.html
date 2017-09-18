@@ -1,0 +1,547 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>FAIL</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>47990</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>20</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>3.4.0</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td><table class="selenium" id="suiteTable" border="1" cellspacing="1" cellpadding="1"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr class="status_failed"><td><a href="#testresult0">CashAndLoanValueValidation</a></td></tr>
+</tbody></table></td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">CashAndLoanValueValidation.html</a><br/><tr><td><div>
+<table border="1" cellspacing="1" cellpadding="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CashAndLoanValueValidation</td></tr>
+</thead><tbody>
+<tr class="status_done">
+	<td>setSpeed</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>open</td>
+	<td>https://cscehwmanor001:9472/wma/login.jsf</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>vkuralkar</td>
+</tr>
+<tr class="status_done">
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>wma</td>
+</tr>
+<tr class="status_done">
+	<td>select</td>
+	<td>id=mainform:environment</td>
+	<td>label=CSCEHTSSNOR003-10566</td>
+</tr>
+<tr class="status_done">
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>click</td>
+	<td>link=Accumulation</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>type</td>
+	<td>id=mainform:contractEntryMasterId</td>
+	<td>Cash&amp;LoanValid</td>
+</tr>
+<tr class="status_done">
+	<td>type</td>
+	<td>id=mainform:contractEntryPolicyEffectiveDate_input</td>
+	<td>01012006</td>
+</tr>
+<tr class="status_done">
+	<td>select</td>
+	<td>id=mainform:contractEntryIssueState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr class="status_done">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryPlanCode</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>select</td>
+	<td>id=mainform:contractEntryPlanCode</td>
+	<td>label=AN1PA1</td>
+</tr>
+<tr class="status_done">
+	<td>click</td>
+	<td>css=option[value="AN1PA1"]</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>select</td>
+	<td>id=mainform:contractEntryStatutoryCompanyCode</td>
+	<td>label=VCS</td>
+</tr>
+<tr class="status_done">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryPlanCode</td>
+	<td></td>
+</tr>
+<tr class="status_done">
+	<td>select</td>
+	<td>id=mainform:contractEntryLineOfBusiness</td>
+	<td>label=NQI - NON QUALIFIED INDIVIDUAL</td>
+</tr>
+<tr class="status_failed">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>select</td>
+	<td>id=mainform:contractEntryResidentState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=mainform:contractEntryCashWithAppCode</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRoleTypeCode</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>select</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRoleTypeCode</td>
+	<td>label=Agent</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>css=option[value="A"]</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationPersonCode</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationPersonCode</td>
+	<td>vin01</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationAgentProfile</td>
+	<td>vin</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationFirstYearPercent</td>
+	<td>100%</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationRenewalPercent</td>
+	<td>100%</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationCommissionAgencyCode</td>
+	<td>vin01</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:ContractEntryAgentInformation:0:contractEntryContractEntryAgentInformationAgentContract</td>
+	<td>vin01</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataFirstName</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataFirstName</td>
+	<td>vinit</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataLastName</td>
+	<td>kuralkar</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataTaxIdNumber</td>
+	<td>458632781</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataBirthdate_input</td>
+	<td>01011965</td>
+</tr>
+<tr class="insert-core-result">
+	<td>select</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataSexCode</td>
+	<td>label=Male</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataAddressLine1</td>
+	<td>vijay nagar</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataCity</td>
+	<td>indore</td>
+</tr>
+<tr class="insert-core-result">
+	<td>select</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryContractEntryAnnuitantDataZipPostalCode</td>
+	<td>65478</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryAnnuityCommencementDate_input</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryAnnuityCommencementDate_input</td>
+	<td>01012010</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:contractEntryModalPremium</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryModalPremium</td>
+	<td>$5000.00</td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:contractEntryInitialDepositPremium</td>
+	<td>$5000.00</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:AllocationFund:0:allocationFundPercent</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:AllocationFund:0:allocationFundPercent</td>
+	<td>100.0%</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForElementPresent</td>
+	<td>id=mainform:premiumPaymentPaymentAmount</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:premiumPaymentPaymentAmount</td>
+	<td>$5000.00</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=nextbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=overridebox</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=finishbutton</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>link=Navigate</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>//div[@id='summaryBar']/table/tbody/tr[2]/td/table/tbody/tr/td[3]</td>
+	<td>exact:Status: A- Active</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>link=Values</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>link=Cash and Loan</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>type</td>
+	<td>id=mainform:inquiryRequestValaEffDate_input</td>
+	<td>06012009</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=mainform:update</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>waitForPageToLoad</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesAccumCashValue</td>
+	<td>$6,373.36</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesFreeWithdrawalAmount</td>
+	<td>$637.33</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesTerminationPenalty</td>
+	<td>$478.00</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesAdministrativeFee</td>
+	<td>$9.50</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesPremiumTax</td>
+	<td>$476.52</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesGrossCheckAmount</td>
+	<td>$5,409.34</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesNetCheckAmount</td>
+	<td>$5,225.57</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesMaxLoanableValue</td>
+	<td>$4,325.57</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesWithholdingAmount</td>
+	<td>$183.77</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>//form[@id='mainform']/div[2]/table/tbody/tr[12]/td[4]</td>
+	<td>$418.84</td>
+</tr>
+<tr class="insert-core-result">
+	<td>assertText</td>
+	<td>id=mainform:valuesPostTefraTamraAmt</td>
+	<td>$5,000.00</td>
+</tr>
+<tr class="insert-core-result">
+	<td>click</td>
+	<td>id=iconform:logoutIcon</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td></tr></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+|setSpeed | 2000 |  |
+|open | https://cscehwmanor001:9472/wma/login.jsf |  |
+|waitForPageToLoad | 10000 |  |
+|type | id=mainform:userId | vkuralkar |
+|type | id=mainform:userPassword | wma |
+|select | id=mainform:environment | label=CSCEHTSSNOR003-10566 |
+|clickAndWait | id=mainform:loginAction |  |
+|waitForPageToLoad | 10000 |  |
+|click | link=Accumulation |  |
+|type | id=mainform:contractEntryMasterId | Cash&amp;LoanValid |
+|type | id=mainform:contractEntryPolicyEffectiveDate_input | 01012006 |
+|select | id=mainform:contractEntryIssueState | label=Connecticut |
+|click | id=nextbutton |  |
+|waitForElementPresent | id=mainform:contractEntryPlanCode |  |
+|select | id=mainform:contractEntryPlanCode | label=AN1PA1 |
+|click | css=option[value=&quot;AN1PA1&quot;] |  |
+|pause | 10000 |  |
+|select | id=mainform:contractEntryStatutoryCompanyCode | label=VCS |
+|waitForElementPresent | id=mainform:contractEntryPlanCode |  |
+|select | id=mainform:contractEntryLineOfBusiness | label=NQI - NON QUALIFIED INDIVIDUAL |
+|waitForPageToLoad | 10000 |  |
+com.thoughtworks.selenium.Wait$WaitTimedOutException: Failed to load page within 10000 ms
+</pre></body></html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cscehwmanor001:9472/wma/login.jsf" />
+<title>CompanyAdd</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CompanyAdd</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/wma/login.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>rkumar288</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>wma</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:environment</td>
+	<td>label=CSCEHTSSNOR003-10565</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Client/Company</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Company Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddCompanyCode</td>
+	<td>VCS</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddTaxIdNumber</td>
+	<td>221113334</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddTaxIdSuffix</td>
+	<td>s</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddName</td>
+	<td>VCS Private ltd</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddAddress1</td>
+	<td>test add</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddCity</td>
+	<td>east hartford</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:companyAddState</td>
+	<td>label=Connecticut</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:companyAddZipPostalCode</td>
+	<td>06610</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=overridebox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#errorMessages &gt; tbody &gt; tr &gt; td &gt; span</td>
+	<td>Transaction processed successfully</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

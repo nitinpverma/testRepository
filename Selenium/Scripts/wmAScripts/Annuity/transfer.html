@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cscehwmanor001:9472/" />
+<title>transfer</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">transfer</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>https://cscehwmanor001:9472/wma/login.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userId</td>
+	<td>vkuralkar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:userPassword</td>
+	<td>wma</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=mainform:environment</td>
+	<td>label=MFE-DEV</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:loginAction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mainform:clientRequestMasterId</td>
+	<td>vinit_ann_demo1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=mainform:searchButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClickAndWait</td>
+	<td>id=mainform:ContractHistoryIndexReturnedHistoryData:0:contractHistoryIndexContractHistoryIndexReturnedHistoryDataTrxCodeDisplay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//tr[@id='j_id186_0']/td[7]/span</td>
+	<td>5,367.29</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//tr[@id='j_id186_1']/td[7]/span</td>
+	<td>2,683.65</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//tr[@id='j_id186_2']/td[7]/span</td>
+	<td>2,683.64</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=General</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=iconform:logoutIcon</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
